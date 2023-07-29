@@ -6,7 +6,7 @@ authors = ["Your Name <your.email@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-# Add other dependencies here
+bcrypt = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
