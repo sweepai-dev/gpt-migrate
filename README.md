@@ -26,13 +26,10 @@ However, with the collective brilliance of the OSS community and the current sta
 
 ## ⚡️ Usage
 
-1. Install Docker and ensure that it's running. It's also recommended that you use at least GPT-4, preferably GPT-4-32k.
-
-2. Set your [OpenAI API key](https://platform.openai.com/account/api-keys) and install the python requirements:
-
-`export OPENAI_API_KEY=<your key>`
-
-`pip install -r requirements.txt`
+1. Install Poetry using the recommended installation method on the [Poetry website](https://python-poetry.org/docs/#installation).
+2. Clone the repository: `git clone https://github.com/sweepai-dev/gpt-migrate.git`
+3. Navigate to the project directory: `cd gpt-migrate`
+4. Install the project dependencies: `poetry install`
 
 3. Run the main script with the target language you want to migrate to:
 
